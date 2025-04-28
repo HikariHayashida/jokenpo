@@ -6,7 +6,7 @@ PLACARVITORIA = 0
 PLACARDERROTA = 0
 
 def jogar_novamente():
-    querJogar = str(input("Gostaria de jogar Jankepo? (sim/não): ")).lower().strip()
+    querJogar = str(input("Gostaria de jogar Jonkepo? (sim/não): ")).lower().strip()
     if querJogar != "não":
         return jogo_jankepo()
     else:
